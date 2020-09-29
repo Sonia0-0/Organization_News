@@ -16,7 +16,7 @@ public class Sql2oDepartmentsDaoTest {
     @BeforeClass
     public static void setUp() throws Exception {
         String connectionString = "jdbc:postgresql://localhost:5432/organisational_api_test";
-        Sql2o sql2o = new Sql2o(connectionString, "billyayiera", "theboyme");
+        Sql2o sql2o = new Sql2o(connectionString, "makena", "barbie");
         newsDao = new Sql2oNewsDao(sql2o);
         departmentsDao = new Sql2oDepartmentsDao(sql2o);
         usersDao = new Sql2oUsersDao(sql2o);
